@@ -1,0 +1,33 @@
+footer {
+    border: .5px solid rgba(255, 255, 255, 0.15);
+}
+footer .container {
+    display: flex;
+    padding: 4.375rem 0 6.125rem 0;
+    justify-content: space-between;
+}
+.copyright-part {
+    max-width: 16.25rem;
+}
+.copyright {
+    padding-top: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.about-company {
+    padding-top: 1.5625rem;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-item-header {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+.footer-item-element {
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.55);
+    padding-bottom: .625rem;
+}

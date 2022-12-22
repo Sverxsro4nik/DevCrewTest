@@ -1,0 +1,13 @@
+.contributor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contributor .form {
+    margin-top: 6.25rem;
+}
+.contributor .form input {
+    background-image: none;
+}

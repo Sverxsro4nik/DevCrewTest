@@ -1,0 +1,112 @@
+.popular-tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools {
+    display: flex;
+    margin-top: 6.875rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.tool {
+    padding: 1.5625rem;
+    display: flex;
+    gap: 1.875rem;
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+.tool-header {
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 0.1875rem;
+}
+.tool-header img {
+    width: 4rem;
+    height: 3.5625rem;
+}
+
+.tool-title {
+    font-size: 1.5rem;
+
+}
+
+.visual {
+    font-size: 1.125rem;
+}
+.tool-header_about > p {
+    color: rgba(255, 165, 55, 0.55);
+    font-size: 1.125rem;
+}
+.tool-description {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.tool-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tool-footer_icons {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+.tool-footer_icons .like, .tool-footer_icons .download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.625rem;
+    height: 2.625rem;
+}
+.tool-link {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+}
+
+.tool:hover {
+    box-shadow: 0 .4rem .4rem 0 rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0 .4rem .4rem rgba(0, 0, 0, 0.25));
+    border: .125rem solid;
+    border-image-source: linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+    background: rgba(40, 48, 54, 0.6);
+    border-radius: .9375rem;
+}
+.tool:hover .tool-header_about p {
+    color: rgba(255, 165, 55, 1);
+}
+.tool .tool-description {
+    width: auto;
+}
+.tool:hover .tool-link {
+    background-color: rgb(255, 110, 48);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    padding: .75rem 1.75rem;
+    border-radius: .5rem;
+}
+.tool:hover .tool-footer_icons .like{
+    background: #283036;
+    box-shadow: 0 .3125rem .625rem .1875rem rgba(18, 18, 18, 0.15);
+    border-radius: .5rem;
+}
+.tool:hover .tool-footer_icons .like svg path {
+    fill: #FD3B41;
+    fill-opacity: 1;
+}
+
+.load {
+    margin-top: 6.25rem;
+    border: .0625rem solid rgba(255, 255, 255, 0.1);
+    border-radius: .5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #FF6E30;
+    padding: 1.0625rem 2.375rem;
+}

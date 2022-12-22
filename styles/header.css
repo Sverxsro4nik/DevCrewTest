@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.625rem;
+    color: rgba(255, 255, 255, 0.55);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: .75rem;
+}
+.header-logo p {
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+.header-nav {
+    display: flex;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.categories {
+    position: relative;
+    margin-right: 1.125rem;
+}
+.categories::after{
+    content: url("../images/chevron-down.svg");
+    position: absolute;
+    top: 15%;
+}
+
+.header-cabinet_login {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 2.5625rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgb(255, 110, 48);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    padding: .75rem 1.75rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.newcomer-tools {
+    display: flex;
+}
+.left-part .section-header, .left-part .section-description {
+    text-align: left;
+}
+.left-part .section-header {
+    font-size: 3rem;
+    margin-bottom: 1.875rem;
+}
+.left-part .button {
+    margin-top: 3.75rem;
+}
+.right-part .tools {
+    margin-top: 0;
+}
+.right-part .tool:hover .tool-footer_icons .like{
+    background: none;
+    box-shadow: none;
+}
+.right-part .tool:hover .tool-footer_icons .like svg path {
+    fill: white;
+    fill-opacity: 0.38;
+}

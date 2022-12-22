@@ -1,0 +1,47 @@
+.first-screen {
+    padding-top: 6.5rem;
+    background-image: url('../images/first-screen-bg.png');
+    background-position:  100% 3.75rem;
+    background-repeat: no-repeat;
+}
+.first-screen h2 {
+    max-width: 37.5rem;
+    font-size: 3.125rem;
+    line-height: 4.375rem;
+}
+.first-screen p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 3.75rem;
+
+}
+.first-screen h2 span {
+    color: rgb(255, 110, 48);
+}
+.first-screen p {
+    margin-top: 1.875rem;
+    width: 30.4375rem;
+}
+
+.social {
+    margin-top: 6.875rem;
+}
+.social ul {
+    display: flex;
+    list-style: none;
+}
+.social-icon {
+    display: inline-block;
+    width: 3.625rem;
+    height: 3.625rem;
+    gap: .5rem;
+}
+.facebook {
+    background: url("../images/facebook.svg") no-repeat center center;
+}
+.instagram {
+    background: url("../images/instagram.svg") no-repeat center center;
+}
+.twitter {
+    background: url("../images/twitter.svg") no-repeat center center;
+}
